@@ -34,7 +34,7 @@ class _HomePageState extends State<HomePage> {
                   noteController.clear();
 
                   // pop the dialogbox
-                  Navigator.of(context);
+                  Navigator.pop(context);
                 },
                 child: Text('Add'),
               ),
